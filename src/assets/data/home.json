@@ -1,4 +1,4 @@
-[
+   [
   {
     "id": 1,
     "name": "AirMax 270",
@@ -8,7 +8,7 @@
     "shortDescription": "Lightweight running shoe with air cushioning",
     "longDescription": "The Nike AirMax 270 features our largest Max Air unit yet for unbelievable comfort all day. Breathable mesh upper combines with a foam midsole for lightweight cushioning.",
     "sizes": [6, 7, 8, 9, 10, 11],
-    "imageUrl": "/images/airmax270.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "shortDescription": "Retro styling meets modern comfort",
     "longDescription": "Reebok's iconic 90s running shoe returns with updated cushioning technology. Features a Hexalite comfort system and durable rubber outsole for superior traction.",
     "sizes": [7, 8, 9, 10],
-    "imageUrl": "/images/grid9000.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "shortDescription": "Iconic suede sneaker with timeless style",
     "longDescription": "Puma's most recognizable silhouette features a premium suede upper, cushioned footbed, and signature Formstrip design. Perfect for casual everyday wear.",
     "sizes": [6, 7, 8, 9, 10, 11, 12],
-    "imageUrl": "/images/suedeclassic.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
  
   {
@@ -42,7 +42,7 @@
     "shortDescription": "Classic design for everyday wear",
     "longDescription": "The Campus Retro combines vintage styling with modern comfort technology. Features a padded collar, vulcanized rubber sole, and breathable canvas upper.",
     "sizes": [6, 7, 8, 9, 10],
-    "imageUrl": "/images/campusretro.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
   {
     "id": 5,
@@ -53,7 +53,7 @@
     "shortDescription": "High-performance running shoes",
     "longDescription": "Adidas UltraBoost 22 features responsive Boost midsole, Primeknit+ adaptive fit, and Continental™ Rubber outsole for premium grip in all conditions.",
     "sizes": [7, 8, 9, 10, 11],
-    "imageUrl": "/images/ultraboost22.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
   {
     "id": 6,
@@ -64,7 +64,7 @@
     "shortDescription": "Durable sports shoes for daily use",
     "longDescription": "Asian Marathon Runner features air-cooled insoles, high-traction rubber sole, and reinforced toe cap for long-lasting durability during intense workouts.",
     "sizes": [6, 7, 8, 9, 10, 11],
-    "imageUrl": "/images/marathonrunner.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
   {
     "id": 7,
@@ -75,7 +75,7 @@
     "shortDescription": "Responsive running shoes",
     "longDescription": "Nike Air Zoom Pegasus 39 features Zoom Air units in forefoot for responsive cushioning, engineered mesh upper for breathability, and wider toe box for natural movement.",
     "sizes": [7, 8, 9, 10, 11],
-    "imageUrl": "/images/pegasus39.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
   {
     "id": 8,
@@ -86,7 +86,7 @@
     "shortDescription": "Cross-training powerhouse",
     "longDescription": "Reebok Nano X1 training shoes feature Floatride Energy Foam cushioning, Flexweave® knit upper, and durable rubber outsole for multidirectional movement support.",
     "sizes": [8, 9, 10, 11, 12],
-    "imageUrl": "/images/nanox1.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
   {
     "id": 9,
@@ -97,7 +97,7 @@
     "shortDescription": "Bold streetwear sneakers",
     "longDescription": "Puma RS-X³ Puzzle combines chunky retro styling with modern comfort. Features RS (Running System) cushioning and mixed-material upper for unique texture combinations.",
     "sizes": [6, 7, 8, 9, 10],
-    "imageUrl": "/images/rsx3.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
   {
     "id": 10,
@@ -108,7 +108,7 @@
     "shortDescription": "Skateboard-ready sneakers",
     "longDescription": "Campus Skate Pro features vulcanized rubber sole for board feel, reinforced toe cap, and impact-absorbing insole for skateboarding performance.",
     "sizes": [7, 8, 9, 10, 11],
-    "imageUrl": "/images/skatepro.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
   {
     "id": 11,
@@ -119,7 +119,7 @@
     "shortDescription": "Modern urban sneakers",
     "longDescription": "Adidas NMD_R1 combines retro running shoe DNA with modern technologies. Features Boost midsole, Primeknit upper, and signature EVA plug inserts.",
     "sizes": [8, 9, 10, 11],
-    "imageUrl": "/images/nmdr1.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
   {
     "id": 12,
@@ -130,7 +130,7 @@
     "shortDescription": "Outdoor adventure shoes",
     "longDescription": "Asian Trekker Pro features waterproof membrane, aggressive lug pattern outsole, and ankle support for hiking and outdoor activities.",
     "sizes": [7, 8, 9, 10],
-    "imageUrl": "/images/trekkerpro.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
   {
     "id": 13,
@@ -141,7 +141,7 @@
     "shortDescription": "Versatile training shoes",
     "longDescription": "Nike Metcon 7 features dual-density foam for stability during lifts, flexible forefoot for dynamic movements, and durable rubber wrap for rope climbs.",
     "sizes": [7, 8, 9, 10, 11],
-    "imageUrl": "/images/metcon7.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
   {
     "id": 14,
@@ -152,7 +152,7 @@
     "shortDescription": "Timeless leather sneakers",
     "longDescription": "Reebok Classic Leather combines premium leather upper with EVA midsole for cushioning. Versatile style that works from street to casual office wear.",
     "sizes": [6, 7, 8, 9, 10],
-    "imageUrl": "/images/classicleather.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
   {
     "id": 15,
@@ -163,7 +163,7 @@
     "shortDescription": "80s-inspired running shoes",
     "longDescription": "Puma Future Rider combines retro design with modern comfort. Features Rider Foam midsole, textile/rubber upper, and bold color blocking.",
     "sizes": [6, 7, 8, 9, 10, 11],
-    "imageUrl": "/images/futurerider.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
   {
     "id": 16,
@@ -174,7 +174,7 @@
     "shortDescription": "Court-ready basketball shoes",
     "longDescription": "Campus Basket Pro features high-top design for ankle support, herringbone traction pattern, and responsive cushioning for quick cuts on court.",
     "sizes": [8, 9, 10, 11, 12],
-    "imageUrl": "/images/basketpro.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
   {
     "id": 17,
@@ -185,7 +185,7 @@
     "shortDescription": "Iconic shell-toe sneakers",
     "longDescription": "Adidas Originals Superstar features the iconic rubber shell toe, leather upper, and serrated 3-Stripes. A streetwear essential since 1969.",
     "sizes": [7, 8, 9, 10, 11],
-    "imageUrl": "/images/superstar.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
   {
     "id": 18,
@@ -196,7 +196,7 @@
     "shortDescription": "Comfort walking shoes",
     "longDescription": "Asian Power Walk features air-cushioned midsole, breathable mesh upper, and flexible outsole for all-day walking comfort.",
     "sizes": [6, 7, 8, 9, 10],
-    "imageUrl": "/images/powerwalk.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
   {
     "id": 19,
@@ -207,7 +207,7 @@
     "shortDescription": "Long-run comfort shoes",
     "longDescription": "Nike React Infinity Run 3 features soft React foam, widened platform for stability, and Flyknit upper for breathable support during long distances.",
     "sizes": [8, 9, 10, 11],
-    "imageUrl": "/images/reactinfinity.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   },
   {
     "id": 20,
@@ -218,6 +218,6 @@
     "shortDescription": "Energy-return running shoes",
     "longDescription": "Reebok Zig Dynamica features floating Zig Energy Bands that compress and spring back with every step, providing dynamic energy return.",
     "sizes": [7, 8, 9, 10, 11],
-    "imageUrl": "/images/zigdynamica.jpg"
+    "imageUrl": "https://img.freepik.com/premium-photo/stylish-mens-shoes-collection-highquality-jpg-image-fashion-projects_1179582-261.jpg?ga=GA1.1.425877410.1729409421&semt=ais_hybrid&w=740"
   }
-]
+]  

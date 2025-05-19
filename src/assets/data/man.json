@@ -1,4 +1,4 @@
-[
+ [
   {
     "id": 201,
     "name": "Air Zoom Pegasus 40",
@@ -63,7 +63,7 @@
     "shortDescription": "Premium cushion running shoes",
     "longDescription": "New Balance Fresh Foam X 1080v13 features ultra-soft Fresh Foam midsole, Hypoknit upper for adaptive fit, and blown rubber outsole.",
     "sizes": [8,9,10,11],
-    "imageUrl": "/images/nb_freshfoam.jpg"
+    "imageUrl": "/images/stylish-mens-shoes.avif"
   },
   {
     "id": 207,
@@ -74,7 +74,7 @@
     "shortDescription": "Rugged work boots",
     "longDescription": "Timberland PRO Men's 6 Pit Boss Boot with steel toe, anti-fatigue technology, and slip-resistant outsole. Premium full-grain leather.",
     "sizes": [8,9,10,11,12],
-    "imageUrl": "/images/timberland_pro.jpg"
+    "imageUrl": "./images/timberland_pro.jpg"
   },
   {
     "id": 208,
@@ -110,3 +110,4 @@
     "imageUrl": "/images/woodland_edge.jpg"
   }
 ]
+ 

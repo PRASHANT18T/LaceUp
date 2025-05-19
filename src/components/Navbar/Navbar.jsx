@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 import Logo from './Logo';
 import SearchBar from './SearchBar';
-import NavButtons from './NavButtons';
+// import NavButtons from './NavButtons';
 
 export default function Navbar() {
   return (
@@ -11,7 +11,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <Logo />
           <SearchBar />
-          <NavButtons />
+          {/* <NavButtons /> */}
         </div>
       </div>
     </nav>
