@@ -1,0 +1,112 @@
+[
+  {
+    "id": 101,
+    "name": "Asian Maverick",
+    "brand": "Asian",
+    "color": "Blue/White",
+    "price": 45.00,
+    "shortDescription": "Lightweight sports shoe for daily wear",
+    "longDescription": "The Asian Maverick features breathable mesh upper with reinforced toe cap, cushioned insole, and flexible rubber outsole. Perfect for morning walks and casual sports activities.",
+    "sizes": [6,7,8,9,10,11],
+    "imageUrl": "/images/maverick.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Trekker Pro",
+    "brand": "Asian",
+    "color": "Brown/Orange",
+    "price": 55.00,
+    "shortDescription": "Waterproof hiking shoes",
+    "longDescription": "Asian Trekker Pro with high ankle support and Vibram-style lug pattern sole. Features waterproof membrane and padded collar for rough terrain adventures.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/trekkerpro.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Marathon Runner",
+    "brand": "Asian",
+    "color": "Red/Black",
+    "price": 48.00,
+    "shortDescription": "Breathable running shoes",
+    "longDescription": "Asian Marathon Runner with air-cooled insole technology and lightweight EVA midsole. Perforated upper keeps feet dry during intense workouts.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/marathonrunner.jpg"
+  },
+  {
+    "id": 104,
+    "name": "City Stride",
+    "brand": "Asian",
+    "color": "Black/Grey",
+    "price": 40.00,
+    "shortDescription": "Casual everyday sneakers",
+    "longDescription": "Asian City Stride combines canvas upper with foam cushioning. Anti-slip rubber outsole perfect for urban commuting and college wear.",
+    "sizes": [6,7,8,9,10,11],
+    "imageUrl": "/images/citystride.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Power Flex",
+    "brand": "Asian",
+    "color": "Navy/Red",
+    "price": 52.00,
+    "shortDescription": "Cross-training shoes",
+    "longDescription": "Asian Power Flex with lateral support straps and multi-directional flex grooves. Ideal for gym workouts and aerobic exercises.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/powerflex.jpg"
+  },
+  {
+    "id": 106,
+    "name": "Monsoon Trek",
+    "brand": "Asian",
+    "color": "Green/Yellow",
+    "price": 58.00,
+    "shortDescription": "Rain-ready shoes with quick-dry tech",
+    "longDescription": "Asian Monsoon Trek features water-resistant upper, drainage channels, and extra-grip outsole. Special anti-fungal insole for wet conditions.",
+    "sizes": [8,9,10,11],
+    "imageUrl": "/images/monsoontrek.jpg"
+  },
+  {
+    "id": 107,
+    "name": "Street Champ",
+    "brand": "Asian",
+    "color": "White/Red",
+    "price": 42.00,
+    "shortDescription": "Urban style basketball sneakers",
+    "longDescription": "Asian Street Champ with high-top design, padded ankle collar, and herringbone traction pattern. Durable synthetic leather upper.",
+    "sizes": [7,8,9,10],
+    "imageUrl": "/images/streetchamp.jpg"
+  },
+  {
+    "id": 108,
+    "name": "Air Lite",
+    "brand": "Asian",
+    "color": "Silver/Blue",
+    "price": 50.00,
+    "shortDescription": "Ultra-lightweight walking shoes",
+    "longDescription": "Asian Air Lite weighs just 210g with breathable knit upper and compression-molded EVA midsole. Perfect for seniors and long walks.",
+    "sizes": [6,7,8,9,10,11],
+    "imageUrl": "/images/airlite.jpg"
+  },
+  {
+    "id": 109,
+    "name": "Grand Slam",
+    "brand": "Asian",
+    "color": "White/Green",
+    "price": 47.00,
+    "shortDescription": "Tennis court shoes",
+    "longDescription": "Asian Grand Slam with clay court outsole pattern and reinforced toe guard. Cushioned midsole for hard court impact protection.",
+    "sizes": [8,9,10,11],
+    "imageUrl": "/images/grandslam.jpg"
+  },
+  {
+    "id": 110,
+    "name": "Trail Blazer",
+    "brand": "Asian",
+    "color": "Khaki/Black",
+    "price": 60.00,
+    "shortDescription": "Off-road adventure shoes",
+    "longDescription": "Asian Trail Blazer with rock protection plate, gusseted tongue, and aggressive lug pattern. Designed for mountain trails and rocky terrain.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/trailblazer.jpg"
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "id": 204,
+    "name": "Street Sneak",
+    "brand": "Nike",
+    "color": "Gray",
+    "price": 95.00,
+    "description": "Casual sneakers for everyday style.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/streetsneak.jpg"
+  },
+  {
+    "id": 205,
+    "name": "Urban Glide",
+    "brand": "Campus",
+    "color": "Black/White",
+    "price": 89.99,
+    "description": "Lightweight slip-on sneakers with cushioned comfort.",
+    "sizes": [6,7,8,9,10,11],
+    "imageUrl": "/images/urbanglide.jpg"
+  },
+  {
+    "id": 206,
+    "name": "Fresh Kicks",
+    "brand": "Nike",
+    "color": "White/Blue",
+    "price": 102.50,
+    "description": "Breathable mesh upper with responsive foam midsole.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/freshkicks.jpg"
+  },
+  {
+    "id": 207,
+    "name": "Night Runner",
+    "brand": "Campus",
+    "color": "Black/Neon Green",
+    "price": 110.00,
+    "description": "Reflective accents for visibility and urban running.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/nightrunner.jpg"
+  },
+  {
+    "id": 208,
+    "name": "Cozy Loafer",
+    "brand": "Puma",
+    "color": "Brown/Tan",
+    "price": 78.00,
+    "description": "Slip-on loafer style with soft insole for casual wear.",
+    "sizes": [6,7,8,9,10,11],
+    "imageUrl": "/images/cozyloafer.jpg"
+  },
+  {
+    "id": 209,
+    "name": "Flex Move",
+    "brand": "Nike",
+    "color": "Gray/Coral",
+    "price": 99.00,
+    "description": "Flexible sole design for dynamic everyday movement.",
+    "sizes": [7,8,9,10],
+    "imageUrl": "/images/flexmove.jpg"
+  },
+  {
+    "id": 210,
+    "name": "Eco Step",
+    "brand": "Puma",
+    "color": "Green/White",
+    "price": 85.00,
+    "description": "Eco-friendly materials with recycled fabric upper.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/ecostep.jpg"
+  },
+  {
+    "id": 211,
+    "name": "Vibe Slip-On",
+    "brand": "Reebok",
+    "color": "Mauve/White",
+    "price": 92.00,
+    "description": "Stylish slip-on with textured knit upper.",
+    "sizes": [6,7,8,9,10,11],
+    "imageUrl": "/images/vibeslipon.jpg"
+  },
+  {
+    "id": 212,
+    "name": "Retro Runner",
+    "brand": "Nike",
+    "color": "Red/White",
+    "price": 105.00,
+    "description": "Vintage-inspired runner with modern cushioning.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/retrorunner.jpg"
+  },
+  {
+    "id": 213,
+    "name": "Stealth Step",
+    "brand": "Reebok",
+    "color": "All Black",
+    "price": 120.00,
+    "description": "Monochrome design with slip-resistant outsole.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/stealthstep.jpg"
+  }
+]
+

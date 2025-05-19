@@ -1,0 +1,112 @@
+[
+  {
+    "id": 101,
+    "name": "RS-X",
+    "brand": "Puma",
+    "color": "Grey/Red",
+    "price": 110.00,
+    "shortDescription": "Futuristic sneaker with bold design",
+    "longDescription": "Puma RS-X combines retro gaming aesthetics with modern comfort. Features a chunky rubber sole, mesh and synthetic upper, and bold color blocking inspired by 80s arcade culture.",
+    "sizes": [6,7,8,9,10,11],
+    "imageUrl": "/images/rsx.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Future Rider",
+    "brand": "Puma",
+    "color": "Neon Yellow/Black",
+    "price": 95.00,
+    "shortDescription": "80s-inspired running silhouette",
+    "longDescription": "Puma Future Rider features Rider Foam midsole for cushioning, rubber outsole with gum details, and breathable mesh upper with retro design elements.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/futurerider.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Suede Classic XXI",
+    "brand": "Puma",
+    "color": "Black/White",
+    "price": 85.00,
+    "shortDescription": "Iconic basketball heritage sneaker",
+    "longDescription": "Puma Suede Classic XXI features premium suede upper, padded collar, and rubber outsole. Originally worn by basketball legend Walt Frazier in the 1970s.",
+    "sizes": [6,7,8,9,10,11,12],
+    "imageUrl": "/images/suedeclassic.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Cali Dream",
+    "brand": "Puma",
+    "color": "Pink/White",
+    "price": 120.00,
+    "shortDescription": "Women's lifestyle sneakers",
+    "longDescription": "Puma Cali Dream combines soft leather and suede upper with platform midsole. Embossed Puma logo and pastel color palette for feminine street style.",
+    "sizes": [5,6,7,8,9],
+    "imageUrl": "/images/calidream.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Thunder Electric",
+    "brand": "Puma",
+    "color": "Electric Blue/Orange",
+    "price": 130.00,
+    "shortDescription": "Chunky dad sneakers",
+    "longDescription": "Puma Thunder Electric features layered sole unit, mesh and leather upper, and bold color contrasts. Inspired by 90s technical running shoes.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/thunderelectric.jpg"
+  },
+  {
+    "id": 106,
+    "name": "Cell Venom",
+    "brand": "Puma",
+    "color": "Black/Gold",
+    "price": 150.00,
+    "shortDescription": "90s retro running reimagined",
+    "longDescription": "Puma Cell Venom combines original Trinomic cushioning with modern updates. Features hexagonal outsole pattern and premium leather/suede upper.",
+    "sizes": [8,9,10,11],
+    "imageUrl": "/images/cellvenom.jpg"
+  },
+  {
+    "id": 107,
+    "name": "Ralph Sampson Low",
+    "brand": "Puma",
+    "color": "Red/White",
+    "price": 100.00,
+    "shortDescription": "Basketball heritage sneaker",
+    "longDescription": "Puma Ralph Sampson Low honors the NBA legend with premium leather upper, cushioned midsole, and vintage basketball outsole pattern.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/ralphsampson.jpg"
+  },
+  {
+    "id": 108,
+    "name": "Mirage Sport",
+    "brand": "Puma",
+    "color": "Black/Silver",
+    "price": 75.00,
+    "shortDescription": "Lightweight training shoes",
+    "longDescription": "Puma Mirage Sport features breathable mesh upper, EVA midsole for cushioning, and rubber traction pods for gym workouts and cross-training.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/miragesport.jpg"
+  },
+  {
+    "id": 109,
+    "name": "Liberate Nitro",
+    "brand": "Puma",
+    "color": "Olive Green",
+    "price": 140.00,
+    "shortDescription": "Responsive running shoes",
+    "longDescription": "Puma Liberate Nitro features Nitro Foam midsole for lightweight cushioning, breathable mesh upper, and PumaGrip rubber outsole for traction.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/liberatenitro.jpg"
+  },
+  {
+    "id": 110,
+    "name": "Basket Classic",
+    "brand": "Puma",
+    "color": "White/Gold",
+    "price": 90.00,
+    "shortDescription": "Clean minimalist sneakers",
+    "longDescription": "Puma Basket Classic combines simple leather upper with iconic Formstrip logo. Versatile low-top design perfect for casual everyday wear.",
+    "sizes": [6,7,8,9,10,11],
+    "imageUrl": "/images/basketclassic.jpg"
+  }
+]

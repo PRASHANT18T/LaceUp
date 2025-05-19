@@ -1,0 +1,103 @@
+[
+  {
+    "id": 301,
+    "name": "Women's Glide",
+    "brand": "LaceUp",
+    "color": "Pink",
+    "price": 115.00,
+    "description": "Women's specific fit and cushioning.",
+    "sizes": [6,7,8,9],
+    "imageUrl": "/images/womensglide.jpg"
+  },
+  {
+    "id": 302,
+    "name": "Air Zoom Pegasus",
+    "brand": "Nike",
+    "color": "White/Coral",
+    "price": 125.00,
+    "description": "Lightweight running shoe with responsive Zoom Air units.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/airzoompegasus.jpg"
+  },
+  {
+    "id": 303,
+    "name": "Supercourt",
+    "brand": "Adidas",
+    "color": "White/Green",
+    "price": 80.00,
+    "description": "Minimalist court shoe with premium leather upper.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/supercourt.jpg"
+  },
+  {
+    "id": 304,
+    "name": "RS-Dreamer",
+    "brand": "Puma",
+    "color": "Black/Gold",
+    "price": 110.00,
+    "description": "Stylish cross-trainer favored by pro athletes.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/rsdreamer.jpg"
+  },
+  {
+    "id": 305,
+    "name": "Club C Double",
+    "brand": "Reebok",
+    "color": "White/Blue",
+    "price": 75.00,
+    "description": "Double-strap update of the classic tennis silhouette.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/clubcdouble.jpg"
+  },
+  {
+    "id": 306,
+    "name": "Fresh Foam Roav",
+    "brand": "NewBalance",
+    "color": "Grey/Pink",
+    "price": 95.00,
+    "description": "Casual runner with Fresh Foam midsole for ultimate comfort.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/freshfoamroav.jpg"
+  },
+  {
+    "id": 307,
+    "name": "Gel-Nimbus 24",
+    "brand": "ASICS",
+    "color": "Purple/Black",
+    "price": 150.00,
+    "description": "High-cushion running shoe with GEL technology.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/gelnimbus24.jpg"
+  },
+  {
+    "id": 308,
+    "name": "Ultraboost DNA",
+    "brand": "Adidas",
+    "color": "Black/Silver",
+    "price": 180.00,
+    "description": "Energy-returning running shoe with Boost midsole.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/ultraboostdna.jpg"
+  },
+  {
+    "id": 309,
+    "name": "Flexagon Energy TR",
+    "brand": "Reebok",
+    "color": "Pink/White",
+    "price": 85.00,
+    "description": "Training shoe with adaptive Flexweave upper.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/flexagonenergytr.jpg"
+  },
+  {
+    "id": 310,
+    "name": "Wave Rider 25",
+    "brand": "Mizuno",
+    "color": "Teal/White",
+    "price": 130.00,
+    "description": "Smooth ride stability shoe with Wave cushioning.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/waverider25.jpg"
+  }
+]
+

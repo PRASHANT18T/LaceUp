@@ -1,0 +1,12 @@
+[
+  {
+    "id": 303,
+    "name": "Platinum Run",
+    "brand": "Puma",
+    "color": "Platinum",
+    "price": 260.00,
+    "description": "Top-tier performance shoe with platinum hue.",
+    "sizes": [8,9,10],
+    "imageUrl": "/images/platinumrun.jpg"
+  }
+]

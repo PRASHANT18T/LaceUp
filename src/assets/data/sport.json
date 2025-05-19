@@ -1,0 +1,103 @@
+[
+  {
+    "id": 203,
+    "name": "Sport Pro",
+    "brand": "LaceUp",
+    "color": "Red/Black",
+    "price": 105.00,
+    "description": "Versatile shoe for all sports activities.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/sportpro.jpg"
+  },
+  {
+    "id": 214,
+    "name": "Air Zoom Elite",
+    "brand": "Nike",
+    "color": "White/Volt",
+    "price": 120.00,
+    "description": "Lightweight running shoe with Zoom Air cushioning.",
+    "sizes": [6,7,8,9,10,11],
+    "imageUrl": "/images/airzoomelite.jpg"
+  },
+  {
+    "id": 215,
+    "name": "Ultraboost 21",
+    "brand": "Adidas",
+    "color": "Core Black",
+    "price": 180.00,
+    "description": "Responsive Boost midsole for energy return on every run.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/ultraboost21.jpg"
+  },
+  {
+    "id": 216,
+    "name": "RS-X Hybrid",
+    "brand": "Puma",
+    "color": "Grey/Red",
+    "price": 110.00,
+    "description": "Bold design with hybrid cushioning for daily performance.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/rsxhybrid.jpg"
+  },
+  {
+    "id": 217,
+    "name": "Nano Flex TR",
+    "brand": "Reebok",
+    "color": "Black/White",
+    "price": 95.00,
+    "description": "Training shoe with flexible outsole and supportive upper.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/nanoflextr.jpg"
+  },
+  {
+    "id": 218,
+    "name": "Trail Trekker",
+    "brand": "Asian",
+    "color": "Olive/Orange",
+    "price": 70.00,
+    "description": "Durable trail shoe with rugged outsole for outdoor terrain.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/trailtrekker.jpg"
+  },
+  {
+    "id": 219,
+    "name": "Campus Sport LX",
+    "brand": "Campus",
+    "color": "Navy/White",
+    "price": 65.00,
+    "description": "Sporty low-top with cushioned midsole and canvas upper.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/campus_sportlx.jpg"
+  },
+  {
+    "id": 220,
+    "name": "UA Charged Escape",
+    "brand": "Asian",
+    "color": "Black/Teal",
+    "price": 85.00,
+    "description": "Running shoe with Charged Cushioning for impact absorption.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/chargedescape.jpg"
+  },
+  {
+    "id": 221,
+    "name": "Fresh Foam X 1080",
+    "brand": "Reebok",
+    "color": "Blue/White",
+    "price": 150.00,
+    "description": "Premium running sneaker with Fresh Foam X cushioning.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/freshfoamx1080.jpg"
+  },
+  {
+    "id": 222,
+    "name": "Gel-Kayano 28",
+    "brand": "Asian",
+    "color": "Black/Yellow",
+    "price": 160.00,
+    "description": "Stability running shoe with GEL technology for shock absorption.",
+    "sizes": [6,7,8,9,10,11],
+    "imageUrl": "/images/gelkayano28.jpg"
+  }
+]
+

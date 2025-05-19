@@ -1,0 +1,124 @@
+[
+  {
+    "id": 101,
+    "name": "Stan Smith",
+    "brand": "Adidas",
+    "color": "White/Green",
+    "price": 85.00,
+    "shortDescription": "Iconic tennis-inspired sneakers",
+    "longDescription": "The adidas Stan Smith features a premium leather upper with perforated 3-Stripes, rubber cupsole, and the iconic Stan Smith heel tab. Perfect for casual everyday wear.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/stansmith.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Ultraboost 23",
+    "brand": "Adidas",
+    "color": "Core Black",
+    "price": 190.00,
+    "shortDescription": "Ultra-responsive running shoes",
+    "longDescription": "adidas Ultraboost 23 features updated Boost midsole with 4% more Boost material, Primeknit+ upper for adaptive fit, and Continental™ Rubber outsole for superior traction in wet conditions.",
+    "sizes": [8,9,10,11,12],
+    "imageUrl": "/images/ultraboost23.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Superstar",
+    "brand": "Adidas",
+    "color": "White/Gold",
+    "price": 110.00,
+    "shortDescription": "Classic shell-toe basketball heritage",
+    "longDescription": "The adidas Superstar features the iconic rubber shell toe, leather upper, and serrated 3-Stripes. Originally made for basketball courts in 1969, now a streetwear essential.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/superstar.jpg"
+  },
+  {
+    "id": 104,
+    "name": "NMD_R1",
+    "brand": "Adidas",
+    "color": "Core Red",
+    "price": 160.00,
+    "shortDescription": "Modern urban style sneakers",
+    "longDescription": "adidas NMD_R1 combines retro runner DNA with modern tech. Features Boost cushioning, Primeknit upper, and signature EVA plugs for style and comfort.",
+    "sizes": [8,9,10,11],
+    "imageUrl": "/images/nmdr1.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Ozweego",
+    "brand": "Adidas",
+    "color": "Cloud White",
+    "price": 135.00,
+    "shortDescription": "90s-inspired chunky sneakers",
+    "longDescription": "adidas Ozweego features a mesh and synthetic upper, adiprene+ cushioning, and a bold retro-futuristic design. Perfect for streetwear enthusiasts.",
+    "sizes": [7,8,9,10],
+    "imageUrl": "/images/ozweego.jpg"
+  },
+  {
+    "id": 106,
+    "name": "Continental 80",
+    "brand": "Adidas",
+    "color": "Off White",
+    "price": 95.00,
+    "shortDescription": "Vintage-inspired court shoes",
+    "longDescription": "The adidas Continental 80 features a premium leather upper, vulcanized rubber outsole, and iconic contrast stitching. Inspired by 1980s tennis shoes.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/continental80.jpg"
+  },
+  {
+    "id": 107,
+    "name": "ZX 2K Boost",
+    "brand": "Adidas",
+    "color": "Solar Red",
+    "price": 150.00,
+    "shortDescription": "Retro running reimagined",
+    "longDescription": "adidas ZX 2K Boost features full-length Boost midsole, mesh and synthetic upper, and heritage ZX design details from the 1980s running archives.",
+    "sizes": [8,9,10,11],
+    "imageUrl": "/images/zx2kboost.jpg"
+  },
+  {
+    "id": 108,
+    "name": "Solarboost 5",
+    "brand": "Adidas",
+    "color": "Legend Ink",
+    "price": 170.00,
+    "shortDescription": "Long-distance running shoes",
+    "longDescription": "adidas Solarboost 5 features LEP system for midfoot stability, Continental™ Rubber outsole, and responsive Boost midsole. Designed for marathon runners.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/solarboost5.jpg"
+  },
+  {
+    "id": 109,
+    "name": "Alphabounce+",
+    "brand": "Adidas",
+    "color": "Grey Four",
+    "price": 125.00,
+    "shortDescription": "Flexible training shoes",
+    "longDescription": "adidas Alphabounce+ features Forgedmesh upper with unique flex zones, Bounce cushioning, and durable outsole. Ideal for gym workouts and cross-training.",
+    "sizes": [8,9,10,11],
+    "imageUrl": "/images/alphabounceplus.jpg"
+  },
+  {
+    "id": 110,
+    "name": "Predator Freak",
+    "brand": "Adidas",
+    "color": "Core Black/Red",
+    "price": 275.00,
+    "shortDescription": "Elite football cleats",
+    "longDescription": "adidas Predator Freak features Demonskin™ rubber spikes for enhanced control, Primeknit collar for lockdown, and hybrid stud configuration for agility on pitch.",
+    "sizes": [8,9,10,11],
+    "imageUrl": "/images/predatorfreak.jpg"
+  },
+  {
+    "id": 111,
+    "name": "Yung-1",
+    "brand": "Adidas",
+    "color": "Blue Tint",
+    "price": 140.00,
+    "shortDescription": "90s-inspired chunky sneakers",
+    "longDescription": "adidas Yung-1 combines retro running DNA with modern comfort. Features mesh and suede upper, EVA midsole, and bold color blocking for street-ready style.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/yung1.jpg"
+  }
+]
+ 

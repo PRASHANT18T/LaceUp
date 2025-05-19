@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1,
+    "name": "AirMax 270",
+    "brand": "Nike",
+    "color": "Black/Red",
+    "price": 129.99,
+    "shortDescription": "Lightweight running shoe with air cushioning",
+    "longDescription": "The Nike AirMax 270 features our largest Max Air unit yet for unbelievable comfort all day. Breathable mesh upper combines with a foam midsole for lightweight cushioning.",
+    "sizes": [6, 7, 8, 9, 10, 11],
+    "imageUrl": "/images/airmax270.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Grid 9000",
+    "brand": "Reebok",
+    "color": "White/Blue",
+    "price": 99.50,
+    "shortDescription": "Retro styling meets modern comfort",
+    "longDescription": "Reebok's iconic 90s running shoe returns with updated cushioning technology. Features a Hexalite comfort system and durable rubber outsole for superior traction.",
+    "sizes": [7, 8, 9, 10],
+    "imageUrl": "/images/grid9000.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Suede Classic",
+    "brand": "Puma",
+    "color": "Green/Gold",
+    "price": 75.00,
+    "shortDescription": "Iconic suede sneaker with timeless style",
+    "longDescription": "Puma's most recognizable silhouette features a premium suede upper, cushioned footbed, and signature Formstrip design. Perfect for casual everyday wear.",
+    "sizes": [6, 7, 8, 9, 10, 11, 12],
+    "imageUrl": "/images/suedeclassic.jpg"
+  },
+ 
+  {
+    "id": 4,
+    "name": "Campus Retro",
+    "brand": "Campus",
+    "color": "Navy/White",
+    "price": 65.00,
+    "shortDescription": "Classic design for everyday wear",
+    "longDescription": "The Campus Retro combines vintage styling with modern comfort technology. Features a padded collar, vulcanized rubber sole, and breathable canvas upper.",
+    "sizes": [6, 7, 8, 9, 10],
+    "imageUrl": "/images/campusretro.jpg"
+  },
+  {
+    "id": 5,
+    "name": "UltraBoost 22",
+    "brand": "Adidas",
+    "color": "Core Black",
+    "price": 180.00,
+    "shortDescription": "High-performance running shoes",
+    "longDescription": "Adidas UltraBoost 22 features responsive Boost midsole, Primeknit+ adaptive fit, and Continental™ Rubber outsole for premium grip in all conditions.",
+    "sizes": [7, 8, 9, 10, 11],
+    "imageUrl": "/images/ultraboost22.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Marathon Runner",
+    "brand": "Asian",
+    "color": "Red/White",
+    "price": 45.00,
+    "shortDescription": "Durable sports shoes for daily use",
+    "longDescription": "Asian Marathon Runner features air-cooled insoles, high-traction rubber sole, and reinforced toe cap for long-lasting durability during intense workouts.",
+    "sizes": [6, 7, 8, 9, 10, 11],
+    "imageUrl": "/images/marathonrunner.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Air Zoom Pegasus",
+    "brand": "Nike",
+    "color": "Electric Green",
+    "price": 149.99,
+    "shortDescription": "Responsive running shoes",
+    "longDescription": "Nike Air Zoom Pegasus 39 features Zoom Air units in forefoot for responsive cushioning, engineered mesh upper for breathability, and wider toe box for natural movement.",
+    "sizes": [7, 8, 9, 10, 11],
+    "imageUrl": "/images/pegasus39.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Nano X1",
+    "brand": "Reebok",
+    "color": "Black/Gold",
+    "price": 135.00,
+    "shortDescription": "Cross-training powerhouse",
+    "longDescription": "Reebok Nano X1 training shoes feature Floatride Energy Foam cushioning, Flexweave® knit upper, and durable rubber outsole for multidirectional movement support.",
+    "sizes": [8, 9, 10, 11, 12],
+    "imageUrl": "/images/nanox1.jpg"
+  },
+  {
+    "id": 9,
+    "name": "RS-X³",
+    "brand": "Puma",
+    "color": "Neon Pink",
+    "price": 110.00,
+    "shortDescription": "Bold streetwear sneakers",
+    "longDescription": "Puma RS-X³ Puzzle combines chunky retro styling with modern comfort. Features RS (Running System) cushioning and mixed-material upper for unique texture combinations.",
+    "sizes": [6, 7, 8, 9, 10],
+    "imageUrl": "/images/rsx3.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Skate Pro",
+    "brand": "Campus",
+    "color": "Black/Gum",
+    "price": 70.00,
+    "shortDescription": "Skateboard-ready sneakers",
+    "longDescription": "Campus Skate Pro features vulcanized rubber sole for board feel, reinforced toe cap, and impact-absorbing insole for skateboarding performance.",
+    "sizes": [7, 8, 9, 10, 11],
+    "imageUrl": "/images/skatepro.jpg"
+  },
+  {
+    "id": 11,
+    "name": "NMD_R1",
+    "brand": "Adidas",
+    "color": "Core Red",
+    "price": 160.00,
+    "shortDescription": "Modern urban sneakers",
+    "longDescription": "Adidas NMD_R1 combines retro running shoe DNA with modern technologies. Features Boost midsole, Primeknit upper, and signature EVA plug inserts.",
+    "sizes": [8, 9, 10, 11],
+    "imageUrl": "/images/nmdr1.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Trekker Pro",
+    "brand": "Asian",
+    "color": "Brown/Orange",
+    "price": 55.00,
+    "shortDescription": "Outdoor adventure shoes",
+    "longDescription": "Asian Trekker Pro features waterproof membrane, aggressive lug pattern outsole, and ankle support for hiking and outdoor activities.",
+    "sizes": [7, 8, 9, 10],
+    "imageUrl": "/images/trekkerpro.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Metcon 7",
+    "brand": "Nike",
+    "color": "Wolf Grey",
+    "price": 165.00,
+    "shortDescription": "Versatile training shoes",
+    "longDescription": "Nike Metcon 7 features dual-density foam for stability during lifts, flexible forefoot for dynamic movements, and durable rubber wrap for rope climbs.",
+    "sizes": [7, 8, 9, 10, 11],
+    "imageUrl": "/images/metcon7.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Classic Leather",
+    "brand": "Reebok",
+    "color": "White/Navy",
+    "price": 85.00,
+    "shortDescription": "Timeless leather sneakers",
+    "longDescription": "Reebok Classic Leather combines premium leather upper with EVA midsole for cushioning. Versatile style that works from street to casual office wear.",
+    "sizes": [6, 7, 8, 9, 10],
+    "imageUrl": "/images/classicleather.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Future Rider",
+    "brand": "Puma",
+    "color": "Mint Green",
+    "price": 95.00,
+    "shortDescription": "80s-inspired running shoes",
+    "longDescription": "Puma Future Rider combines retro design with modern comfort. Features Rider Foam midsole, textile/rubber upper, and bold color blocking.",
+    "sizes": [6, 7, 8, 9, 10, 11],
+    "imageUrl": "/images/futurerider.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Basket Pro",
+    "brand": "Campus",
+    "color": "High Risk Red",
+    "price": 60.00,
+    "shortDescription": "Court-ready basketball shoes",
+    "longDescription": "Campus Basket Pro features high-top design for ankle support, herringbone traction pattern, and responsive cushioning for quick cuts on court.",
+    "sizes": [8, 9, 10, 11, 12],
+    "imageUrl": "/images/basketpro.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Superstar",
+    "brand": "Adidas",
+    "color": "White/Gold",
+    "price": 110.00,
+    "shortDescription": "Iconic shell-toe sneakers",
+    "longDescription": "Adidas Originals Superstar features the iconic rubber shell toe, leather upper, and serrated 3-Stripes. A streetwear essential since 1969.",
+    "sizes": [7, 8, 9, 10, 11],
+    "imageUrl": "/images/superstar.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Power Walk",
+    "brand": "Asian",
+    "color": "Silver/Black",
+    "price": 50.00,
+    "shortDescription": "Comfort walking shoes",
+    "longDescription": "Asian Power Walk features air-cushioned midsole, breathable mesh upper, and flexible outsole for all-day walking comfort.",
+    "sizes": [6, 7, 8, 9, 10],
+    "imageUrl": "/images/powerwalk.jpg"
+  },
+  {
+    "id": 19,
+    "name": "React Infinity 3",
+    "brand": "Nike",
+    "color": "Phantom/Volt",
+    "price": 175.00,
+    "shortDescription": "Long-run comfort shoes",
+    "longDescription": "Nike React Infinity Run 3 features soft React foam, widened platform for stability, and Flyknit upper for breathable support during long distances.",
+    "sizes": [8, 9, 10, 11],
+    "imageUrl": "/images/reactinfinity.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Zig Dynamica",
+    "brand": "Reebok",
+    "color": "Solar Yellow",
+    "price": 125.00,
+    "shortDescription": "Energy-return running shoes",
+    "longDescription": "Reebok Zig Dynamica features floating Zig Energy Bands that compress and spring back with every step, providing dynamic energy return.",
+    "sizes": [7, 8, 9, 10, 11],
+    "imageUrl": "/images/zigdynamica.jpg"
+  }
+]

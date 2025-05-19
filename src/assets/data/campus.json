@@ -1,0 +1,112 @@
+[
+  {
+    "id": 201,
+    "name": "Campus Classic LX",
+    "brand": "Campus",
+    "color": "White/Red",
+    "price": 59.99,
+    "shortDescription": "Timeless low-top casual sneaker",
+    "longDescription": "Campus Classic LX features a durable canvas upper, cushioned EVA midsole, and rubber outsole. Perfect for everyday wear with a retro vibe.",
+    "sizes": [6,7,8,9,10,11],
+    "imageUrl": "/images/campus_classic_lx.jpg"
+  },
+  {
+    "id": 202,
+    "name": "Campus Runner 2.0",
+    "brand": "Campus",
+    "color": "Black/Neon Green",
+    "price": 65.00,
+    "shortDescription": "Lightweight running shoe",
+    "longDescription": "Campus Runner 2.0 sports a breathable mesh upper, responsive foam midsole, and grippy rubber outsole. Engineered for speed and comfort.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/campus_runner2.jpg"
+  },
+  {
+    "id": 203,
+    "name": "Campus Trailblazer",
+    "brand": "Campus",
+    "color": "Brown/Olive",
+    "price": 75.50,
+    "shortDescription": "Rugged outdoor hiking shoe",
+    "longDescription": "Trailblazer comes with a waterproof PU upper, reinforced toe guard, and multidirectional lug pattern. Your adventure-ready companion.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/campus_trailblazer.jpg"
+  },
+  {
+    "id": 204,
+    "name": "Campus Skate LX",
+    "brand": "Campus",
+    "color": "Grey/White",
+    "price": 55.00,
+    "shortDescription": "Durable skate-inspired sneaker",
+    "longDescription": "Campus Skate LX features a suede upper, padded collar, and vulcanized rubber outsole. Built to withstand the skatepark grind.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/campus_skate_lx.jpg"
+  },
+  {
+    "id": 205,
+    "name": "Campus FlexFit",
+    "brand": "Campus",
+    "color": "Blue/Orange",
+    "price": 68.00,
+    "shortDescription": "Flexible cross-trainer shoe",
+    "longDescription": "FlexFit combines a knit upper with TPU overlays, a supportive heel counter, and multi-directional flex grooves for gym and court use.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/campus_flexfit.jpg"
+  },
+  {
+    "id": 206,
+    "name": "Campus Court Pro",
+    "brand": "Campus",
+    "color": "White/Green",
+    "price": 62.00,
+    "shortDescription": "Performance tennis shoe",
+    "longDescription": "Court Pro delivers enhanced lateral support, breathable perforations, and a durable herringbone outsole for clay and hard court play.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/campus_courtpro.jpg"
+  },
+  {
+    "id": 207,
+    "name": "Campus Street Snap",
+    "brand": "Campus",
+    "color": "Black/Gold",
+    "price": 58.50,
+    "shortDescription": "Urban lifestyle sneaker",
+    "longDescription": "Street Snap combines synthetic leather upper, cushioned sockliner, and sleek low-profile outsole. Turn heads on city pavements.",
+    "sizes": [6,7,8,9,10,11],
+    "imageUrl": "/images/campus_streetsnap.jpg"
+  },
+  {
+    "id": 208,
+    "name": "Campus AquaStep",
+    "brand": "Campus",
+    "color": "Teal/Yellow",
+    "price": 49.99,
+    "shortDescription": "Water-friendly deck shoe",
+    "longDescription": "AquaStep features quick-drain mesh, slip-resistant outsole, and anatomical footbed. Ideal for boating, beach, and poolside fun.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/campus_aquastep.jpg"
+  },
+  {
+    "id": 209,
+    "name": "Campus HighTop OG",
+    "brand": "Campus",
+    "color": "Red/Black",
+    "price": 72.00,
+    "shortDescription": "Retro high-top sneaker",
+    "longDescription": "HighTop OG brings back 80s basketball style with a leather upper, padded tongue, and durable rubber cupsole. Court to street ready.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/campus_hightop_og.jpg"
+  },
+  {
+    "id": 210,
+    "name": "Campus Slip-On Ease",
+    "brand": "Campus",
+    "color": "Navy/White",
+    "price": 45.00,
+    "shortDescription": "Convenient slip-on casual shoe",
+    "longDescription": "Slip-On Ease offers an elastic gore panel, lightweight canvas upper, and memory foam insole. Effortless on and off for daily wear.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/campus_slipon_ease.jpg"
+  }
+]

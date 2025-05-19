@@ -1,0 +1,12 @@
+[
+  {
+    "id": 302,
+    "name": "Diamond Flex",
+    "brand": "Reebok",
+    "color": "Silver",
+    "price": 275.00,
+    "description": "Inlaid diamond-patterned high-ends.",
+    "sizes": [8,9,10],
+    "imageUrl": "/images/diamondflex.jpg"
+  }
+]

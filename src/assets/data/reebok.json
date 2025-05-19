@@ -1,0 +1,113 @@
+[
+  {
+    "id": 301,
+    "name": "Nano X",
+    "brand": "Reebok",
+    "color": "Black",
+    "price": 130.00,
+    "shortDescription": "Cross-training shoe with Flexweave upper.",
+    "longDescription": "Reebok Nano X features a durable Flexweave upper for multi-directional support, an EVA midsole for cushioning, and a rubber outsole for maximum traction during high-intensity workouts.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/nanox.jpg"
+  },
+  {
+    "id": 302,
+    "name": "Classic Leather",
+    "brand": "Reebok",
+    "color": "White/Gum",
+    "price": 75.00,
+    "shortDescription": "Iconic leather sneaker.",
+    "longDescription": "Reebok Classic Leather combines a full-grain leather upper with a cushioned EVA midsole and a durable rubber outsole, delivering timeless style and everyday comfort.",
+    "sizes": [6,7,8,9,10,11],
+    "imageUrl": "/images/classicleather.jpg"
+  },
+  {
+    "id": 303,
+    "name": "Club C 85",
+    "brand": "Reebok",
+    "color": "White/Green",
+    "price": 70.00,
+    "shortDescription": "Retro tennis-inspired shoe.",
+    "longDescription": "Club C 85 features a leather upper with tonal stitching, a low-cut silhouette, and a cushioned insole for that perfect blend of vintage style and modern comfort.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/clubc85.jpg"
+  },
+  {
+    "id": 304,
+    "name": "Zig Kinetica",
+    "brand": "Reebok",
+    "color": "Black/Volt",
+    "price": 140.00,
+    "shortDescription": "Energy-return running sneaker.",
+    "longDescription": "Zig Kinetica features a Zig Energy Shell and Floatride Fuel midsole for explosive energy return, with a breathable mesh upper and rubber pods for enhanced grip.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/zigkinetica.jpg"
+  },
+  {
+    "id": 305,
+    "name": "Floatride Energy",
+    "brand": "Reebok",
+    "color": "Grey/Coral",
+    "price": 120.00,
+    "shortDescription": "Lightweight running shoe.",
+    "longDescription": "Floatride Energy combines a Flexweave upper with Floatride Energy foam for a responsive, lightweight ride—perfect for long-distance running and daily training.",
+    "sizes": [7,8,9,10],
+    "imageUrl": "/images/floatrideenergy.jpg"
+  },
+  {
+    "id": 306,
+    "name": "Legacy Lifter",
+    "brand": "Reebok",
+    "color": "Black/Red",
+    "price": 160.00,
+    "shortDescription": "Powerlifting support shoe.",
+    "longDescription": "Legacy Lifter offers a high-density midsole, firm outsole, and adjustable straps to provide maximum stability and support during heavy lifts and squats.",
+    "sizes": [8,9,10,11],
+    "imageUrl": "/images/legacylifter.jpg"
+  },
+  {
+    "id": 307,
+    "name": "Axelion",
+    "brand": "Reebok",
+    "color": "Navy/White",
+    "price": 85.00,
+    "shortDescription": "Versatile training sneaker.",
+    "longDescription": "Axelion features a lightweight mesh upper, sculpted heel clip, and Floatride Energy foam for versatile gym workouts and cardio sessions.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/axelion.jpg"
+  },
+  {
+    "id": 308,
+    "name": "Harmon Run",
+    "brand": "Reebok",
+    "color": "White/Blue",
+    "price": 95.00,
+    "shortDescription": "Daily run sneaker.",
+    "longDescription": "Harmon Run offers a seamless mesh upper, EVA midsole cushioning, and rubber outsole for reliable traction—ideal for daily jogs and casual runs.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/harmonrun.jpg"
+  },
+  {
+    "id": 309,
+    "name": "Princess",
+    "brand": "Reebok",
+    "color": "White/Pink",
+    "price": 65.00,
+    "shortDescription": "Casual low-profile sneaker.",
+    "longDescription": "Reebok Princess features a sleek leather upper, metallic 3D logo, and cushioned midsole, providing a chic, comfortable shoe for everyday wear.",
+    "sizes": [6,7,8,9,10],
+    "imageUrl": "/images/princess.jpg"
+  },
+  {
+    "id": 310,
+    "name": "Double Handle",
+    "brand": "Reebok",
+    "color": "Black/Gold",
+    "price": 110.00,
+    "shortDescription": "Modern streetwear sneaker.",
+    "longDescription": "Double Handle combines a leather and mesh upper, molded sockliner, and chunky outsole for a fashion-forward look with everyday comfort.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/doublehandle.jpg"
+  }
+]
+

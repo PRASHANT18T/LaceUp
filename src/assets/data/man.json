@@ -1,0 +1,112 @@
+[
+  {
+    "id": 201,
+    "name": "Air Zoom Pegasus 40",
+    "brand": "Nike",
+    "color": "Midnight Navy",
+    "price": 145.00,
+    "shortDescription": "Responsive running shoes for men",
+    "longDescription": "Nike Air Zoom Pegasus 40 features Zoom Air units in forefoot, engineered mesh upper for breathability, and wider toe box for natural movement during long runs.",
+    "sizes": [8,9,10,11,12],
+    "imageUrl": "/images/nike_airzoom.jpg"
+  },
+  {
+    "id": 202,
+    "name": "Future Rider Neo",
+    "brand": "Puma",
+    "color": "Black/Red",
+    "price": 95.00,
+    "shortDescription": "Retro-inspired streetwear sneakers",
+    "longDescription": "Puma Future Rider Neo combines 80s racing heritage with modern comfort. Features Rider Foam midsole and rubber outsole with gum details.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/puma_futurerider.jpg"
+  },
+  {
+    "id": 203,
+    "name": "Floatride Energy 5",
+    "brand": "Reebok",
+    "color": "Core Black",
+    "price": 130.00,
+    "shortDescription": "Lightweight daily trainers",
+    "longDescription": "Reebok Floatride Energy 5 with responsive Floatride Foam midsole, breathable mesh upper, and flex grooves for natural foot movement.",
+    "sizes": [8,9,10,11],
+    "imageUrl": "/images/reebok_floatride.jpg"
+  },
+  {
+    "id": 204,
+    "name": "D'Lites 3.0",
+    "brand": "Skechers",
+    "color": "White/Navy",
+    "price": 85.00,
+    "shortDescription": "Chunky sole fashion sneakers",
+    "longDescription": "Skechers D'Lites 3.0 features air-cooled memory foam insole, platform wedge design, and synthetic leather upper for retro-modern style.",
+    "sizes": [8,9,10,11],
+    "imageUrl": "/images/skechers_dlites.jpg"
+  },
+  {
+    "id": 205,
+    "name": "HOVR Phantom 3",
+    "brand": "Under Armour",
+    "color": "Black/Grey",
+    "price": 160.00,
+    "shortDescription": "Connected running shoes",
+    "longDescription": "Under Armour HOVR Phantom 3 with energy-returning HOVR foam, compression mesh upper, and embedded sensor tracking stride metrics.",
+    "sizes": [8,9,10,11,12],
+    "imageUrl": "/images/ua_hovr.jpg"
+  },
+  {
+    "id": 206,
+    "name": "Fresh Foam X 1080v13",
+    "brand": "New Balance",
+    "color": "Grey/Blue",
+    "price": 175.00,
+    "shortDescription": "Premium cushion running shoes",
+    "longDescription": "New Balance Fresh Foam X 1080v13 features ultra-soft Fresh Foam midsole, Hypoknit upper for adaptive fit, and blown rubber outsole.",
+    "sizes": [8,9,10,11],
+    "imageUrl": "/images/nb_freshfoam.jpg"
+  },
+  {
+    "id": 207,
+    "name": "Timberland PRO",
+    "brand": "Timberland",
+    "color": "Wheat Brown",
+    "price": 180.00,
+    "shortDescription": "Rugged work boots",
+    "longDescription": "Timberland PRO Men's 6 Pit Boss Boot with steel toe, anti-fatigue technology, and slip-resistant outsole. Premium full-grain leather.",
+    "sizes": [8,9,10,11,12],
+    "imageUrl": "/images/timberland_pro.jpg"
+  },
+  {
+    "id": 208,
+    "name": "Desert Trek II",
+    "brand": "Clarks",
+    "color": "Brown Leather",
+    "price": 150.00,
+    "shortDescription": "Classic desert boots",
+    "longDescription": "Clarks Originals Desert Trek II features crepe rubber sole, premium leather upper, and signature two-eyelet lace system.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/clarks_desert.jpg"
+  },
+  {
+    "id": 209,
+    "name": "Axilus 2 Energized",
+    "brand": "Fila",
+    "color": "White/Red",
+    "price": 110.00,
+    "shortDescription": "Cross-training shoes",
+    "longDescription": "Fila Men's Axilus 2 Energized with EVA midsole, mesh upper for breathability, and rubber outsole with flex grooves.",
+    "sizes": [8,9,10,11],
+    "imageUrl": "/images/fila_axilus.jpg"
+  },
+  {
+    "id": 210,
+    "name": "Woods Edge Pro",
+    "brand": "Woodland",
+    "color": "Dark Green",
+    "price": 125.00,
+    "shortDescription": "Outdoor adventure shoes",
+    "longDescription": "Woodland Men's Edge Pro with waterproof leather upper, anti-slip rubber outsole, and cushioned midsole for trekking.",
+    "sizes": [8,9,10,11],
+    "imageUrl": "/images/woodland_edge.jpg"
+  }
+]

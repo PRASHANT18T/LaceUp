@@ -1,0 +1,112 @@
+[
+  {
+    "id": 101,
+    "name": "Air Force 1",
+    "brand": "Nike",
+    "color": "White",
+    "price": 90.00,
+    "shortDescription": "Iconic basketball-inspired sneaker",
+    "longDescription": "The Nike Air Force 1 features a durable leather upper, perforated toe box, and encapsulated Air-Sole unit. A streetwear staple since 1982.",
+    "sizes": [6,7,8,9,10,11],
+    "imageUrl": "/images/airforce1.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Air Max 270",
+    "brand": "Nike",
+    "color": "Black/Photo Blue",
+    "price": 160.00,
+    "shortDescription": "Max Air cushioning for all-day comfort",
+    "longDescription": "Nike Air Max 270 features the brand's largest Max Air unit yet (32mm) with a lightweight mesh upper and rubber outsole pods for durability.",
+    "sizes": [7,8,9,10,11,12],
+    "imageUrl": "/images/airmax270.jpg"
+  },
+  {
+    "id": 103,
+    "name": "React Infinity Run 4",
+    "brand": "Nike",
+    "color": "Volt/Black",
+    "price": 180.00,
+    "shortDescription": "Long-distance running shoes",
+    "longDescription": "Nike React Infinity Run 4 with soft React foam, rocker geometry for smooth transitions, and Flyknit upper for breathable support during marathons.",
+    "sizes": [8,9,10,11],
+    "imageUrl": "/images/reactinfinity.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Mercurial Superfly 9",
+    "brand": "Nike",
+    "color": "Electric Green",
+    "price": 250.00,
+    "shortDescription": "Elite football boots",
+    "longDescription": "Nike Mercurial Superfly 9 features Flyknit upper with All Conditions Control, dynamic fit collar, and Aerotrak traction for explosive speed on pitch.",
+    "sizes": [8,9,10,11],
+    "imageUrl": "/images/mercurial9.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Metcon 8",
+    "brand": "Nike",
+    "color": "Wolf Grey/Volt",
+    "price": 130.00,
+    "shortDescription": "Cross-training powerhouse",
+    "longDescription": "Nike Metcon 8 combines stability for lifting with flexibility for dynamic movements. Features Hyperlift insert for squats and rope-ready heel.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/metcon8.jpg"
+  },
+  {
+    "id": 106,
+    "name": "Dunk Low Retro",
+    "brand": "Nike",
+    "color": "University Red",
+    "price": 120.00,
+    "shortDescription": "Retro basketball-inspired sneakers",
+    "longDescription": "Nike Dunk Low Retro features original 1985 basketball design with leather upper, padded collar, and rubber cupsole for casual street style.",
+    "sizes": [6,7,8,9,10,11],
+    "imageUrl": "/images/dunklow.jpg"
+  },
+  {
+    "id": 107,
+    "name": "Alphafly NEXT% 2",
+    "brand": "Nike",
+    "color": "Bright Crimson",
+    "price": 275.00,
+    "shortDescription": "Elite racing shoe",
+    "longDescription": "Nike Alphafly NEXT% 2 features ZoomX foam, Air Zoom pods, and Atomknit upper for marathon racing. Worn by elite distance runners.",
+    "sizes": [8,9,10,11],
+    "imageUrl": "/images/alphafly2.jpg"
+  },
+  {
+    "id": 108,
+    "name": "Pegasus 40",
+    "brand": "Nike",
+    "color": "Midnight Navy",
+    "price": 130.00,
+    "shortDescription": "Versatile daily trainers",
+    "longDescription": "Nike Air Zoom Pegasus 40 with Zoom Air units in forefoot, engineered mesh upper, and wider toe box for natural movement during runs.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/pegasus40.jpg"
+  },
+  {
+    "id": 109,
+    "name": "Air Zoom Tempo NEXT%",
+    "brand": "Nike",
+    "color": "Rainbow/Black",
+    "price": 200.00,
+    "shortDescription": "Speed training shoes",
+    "longDescription": "Nike Air Zoom Tempo NEXT% combines responsive ZoomX foam with durable ReactX foam. Ideal for tempo runs and interval training sessions.",
+    "sizes": [8,9,10,11],
+    "imageUrl": "/images/temponext.jpg"
+  },
+  {
+    "id": 110,
+    "name": "Blazer Mid '77",
+    "brand": "Nike",
+    "color": "Sail/Black",
+    "price": 100.00,
+    "shortDescription": "Vintage basketball style",
+    "longDescription": "Nike Blazer Mid '77 Vintage features a retro suede upper, padded collar, and classic Swoosh design. Inspired by 1977 basketball heritage.",
+    "sizes": [7,8,9,10,11],
+    "imageUrl": "/images/blazermid.jpg"
+  }
+]

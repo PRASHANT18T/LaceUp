@@ -1,0 +1,12 @@
+[
+  {
+    "id": 304,
+    "name": "Elite Carbon",
+    "brand": "Campus",
+    "color": "Black Carbon",
+    "price": 240.00,
+    "description": "Carbon-fiber infused elite sneaker.",
+    "sizes": [8,9,10],
+    "imageUrl": "/images/elitecarbon.jpg"
+  }
+]

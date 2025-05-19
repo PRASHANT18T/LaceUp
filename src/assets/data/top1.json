@@ -1,0 +1,12 @@
+[
+  {
+    "id": 301,
+    "name": "Gold Edition",
+    "brand": "Nike",
+    "color": "Gold",
+    "price": 250.00,
+    "description": "Ultra-premium gold-plated sneakers.",
+    "sizes": [8,9,10],
+    "imageUrl": "/images/goldedition.jpg"
+  }
+]
