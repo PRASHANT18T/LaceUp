@@ -35,16 +35,16 @@ const HomeProduct = () => {
   };
 
   const handleShowProduct = (productId) => {
-    navigate(`/product/${productId}`);
+    navigate(`/products?category=${productId}`);
   };
 
   return (
     <div className="p-6">
       <h2 className="text-2xl font-bold mb-6 text-center">Home Products</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
         {products.map(product => (
-          <div key={product.id} className="border rounded-2xl p-4 shadow-md hover:shadow-xl transition-all">
-            <img src={product.main_img} alt={product.name} className="w-full h-48 object-cover rounded-xl mb-3" />
+          <div key={product.id} className="border rounded-2xl p-4 shadow-md hover:shadow-xl transition-all bg-amber-50">
+            <img src={product.mainImg} alt={product.name} className="w-full h-48 object-cover rounded-xl mb-3" />
             <h3 className="text-xl font-semibold mb-1">{product.name}</h3>
             <p className="text-gray-600 mb-1">Brand: {product.brandName}</p>
             <p className="text-gray-700 font-bold mb-1">Price: ₹{product.price}</p>
@@ -57,8 +57,8 @@ const HomeProduct = () => {
                 onChange={(e) => handleSizeChange(product.id, e.target.value)}
                 value={selectedSizes[product.id] || ''}
               >
-                <option value="">Size</option>
-                {product.size?.split(',').map(size => (
+                 <option value="">Choose size</option>
+                {product.sizes.split(',').map(size => (
                   <option key={size} value={size}>{size}</option>
                 ))}
               </select>
