@@ -66,7 +66,7 @@ export default function Cart() {
               >
                 {/* TODO: fetch product image and details by calling fetchOne(item.productTable, item.productId) */}
                 <img
-                  src={`/assets/images/products/${item.productTable}/${item.productId}.jpg`}
+                  src={item.main_img}
                   alt={item.productTable}
                   className="h-24 w-24 object-cover rounded"
                 />

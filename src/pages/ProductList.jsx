@@ -27,7 +27,7 @@ export default function ProductList() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-amber-50">
+    <div className="flex flex-col min-h-screen ">
       <Navbar />
 
       <main className="container mx-auto px-4 py-8 flex-1">
