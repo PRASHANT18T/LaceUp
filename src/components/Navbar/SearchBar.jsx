@@ -25,21 +25,23 @@ export default function SearchBar({ onSearch }) {
         className="absolute inset-y-0 right-0 flex items-center pr-3"
         aria-label="Search"
       >
-        {/* SVG search icon */}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-5 w-5 text-gray-500 hover:text-gray-700"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1116.65 16.65z"
-          />
-        </svg>
+   {/* Search Icon */}
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  className="h-5 w-5 text-gray-400 hover:text-gray-600 transition-colors duration-200"
+  viewBox="0 0 20 20"
+  fill="none"
+  stroke="currentColor"
+  aria-hidden="true"
+  focusable="false"
+>
+  <path
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth={1.5}
+    d="M8.25 14.25A6.25 6.25 0 1 0 8.25 1.75a6.25 6.25 0 0 0 0 12.5zm8.5 1.5l-4.67-4.67"
+  />
+</svg>
       </button>
     </div>
   );

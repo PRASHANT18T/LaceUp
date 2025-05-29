@@ -1,14 +1,18 @@
 // src/pages/ProductDetails.jsx
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import React, { useEffect, useState, useContext } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
-import { fetchOne } from '../services/api';
+import { fetchOne, addToCart as apiAddToCart } from '../services/api';
+import { AuthContext } from '../context/AuthContext';
 
 export default function ProductDetails() {
   const { category, id } = useParams();
+  const { user } = useContext(AuthContext);
+  const navigate = useNavigate();
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [selectedSize, setSelectedSize] = useState('');
 
   useEffect(() => {
     fetchOne(category, id)
@@ -16,6 +20,32 @@ export default function ProductDetails() {
       .catch(err => console.error('Error fetching product details:', err))
       .finally(() => setLoading(false));
   }, [category, id]);
+
+  const handleAddToCart = async () => {
+    if (!user) {
+      alert('Please log in to add items to cart.');
+      navigate('/login');
+      return;
+    }
+    if (!selectedSize) {
+      alert('Please select a size first.');
+      return;
+    }
+    try {
+      const payload = {
+        userId: user.id,
+        productTable: `${category}_product`,
+        productId: product.id,
+        quantity: 1
+      };
+      await apiAddToCart(payload);
+      alert('Added to cart!');
+      // TODO: refresh cart badge
+    } catch (err) {
+      console.error('Add to cart error:', err);
+      alert('Failed to add to cart.');
+    }
+  };
 
   if (loading) {
     return (
@@ -34,7 +64,7 @@ export default function ProductDetails() {
   }
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-gray-50">
       <Navbar />
 
       <main className="container mx-auto px-4 py-8 flex-1">
@@ -60,18 +90,19 @@ export default function ProductDetails() {
           </div>
 
           {/* Details */}
-          <div>
+          <div className="bg-white p-6 rounded-lg shadow">
             <h1 className="text-3xl font-bold mb-2">{product.name}</h1>
-            <p className="text-gray-500 mb-4">{product.brand}</p>
+            <p className="text-gray-500 mb-2">Brand: {product.brand}</p>
             <p className="text-2xl text-indigo-600 font-semibold mb-4">₹{product.price}</p>
             <p className="text-gray-700 mb-4">{product.longDescription}</p>
 
-            {/* Size & Color */}
+            {/* Size Selector */}
             <div className="mb-4">
               <label className="block text-gray-600 mb-1">Select Size:</label>
               <select
-                className="px-3 py-2 border rounded"
-                // TODO: wire to state and Add to Cart
+                value={selectedSize}
+                onChange={e => setSelectedSize(e.target.value)}
+                className="w-full border rounded px-3 py-2"
               >
                 <option value="">Choose size</option>
                 {product.sizes.split(',').map(size => (
@@ -80,21 +111,22 @@ export default function ProductDetails() {
               </select>
             </div>
 
-            <div className="mb-4">
+            {/* Color */}
+            <div className="mb-6">
               <p className="text-gray-600">Color: {product.color}</p>
             </div>
 
             {/* Actions */}
             <div className="flex space-x-4">
               <button
-                className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
-                // TODO: handleAddToCart(product)
+                onClick={handleAddToCart}
+                className="flex-1 bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition"
               >
                 Add to Cart
               </button>
               <button
-                className="bg-gray-200 text-gray-700 px-4 py-2 rounded hover:bg-gray-300"
                 onClick={() => window.history.back()}
+                className="flex-1 bg-gray-200 text-gray-700 px-4 py-2 rounded hover:bg-gray-300 transition"
               >
                 Go Back
               </button>
