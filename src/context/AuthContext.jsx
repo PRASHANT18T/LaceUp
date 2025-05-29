@@ -6,12 +6,10 @@ export const AuthContext = createContext();
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(() => {
-    // Initialize from localStorage if present
     const stored = localStorage.getItem('laceup_user');
     return stored ? JSON.parse(stored) : null;
   });
 
-  // Persist user to localStorage whenever it changes
   useEffect(() => {
     if (user) {
       localStorage.setItem('laceup_user', JSON.stringify(user));
@@ -40,6 +38,11 @@ export function AuthProvider({ children }) {
       return { success: true };
     } catch (err) {
       console.error('Signup failed', err);
+      // If email already exists, show friendly message
+      if (err.response?.status === 409 || err.response?.data?.includes('Unique') ||
+          err.response?.data?.toLowerCase().includes('already')) {
+        return { success: false, message: 'You are already signed up. Please log in instead.' };
+      }
       return { success: false, message: err.response?.data || 'Signup error' };
     }
   }
@@ -56,4 +59,4 @@ export function AuthProvider({ children }) {
   );
 }
 
- export default AuthContext;
+export default AuthContext;
