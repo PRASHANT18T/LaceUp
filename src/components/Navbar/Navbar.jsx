@@ -1,6 +1,7 @@
 // src/components/Navbar/Navbar.jsx
 import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../../context/AuthContext';
+import { useNavigate, useLocation } from 'react-router-dom';
 import Logo from './Logo';
 import HomeIcon from './HomeIcon';
 import SearchBar from './SearchBar';
@@ -9,12 +10,12 @@ import NavSignIn from './NavSignIn';
 import NavLogin from './NavLogin';
 import NavProfile from './NavProfile';
 import { fetchCart } from '../../services/api';
-import { useNavigate } from 'react-router-dom';
 
-export default function Navbar() {
+export default function Navbar({ dark }) {
   const { user, signOut } = useContext(AuthContext);
   const [cartCount, setCartCount] = useState(0);
   const navigate = useNavigate();
+  const location = useLocation();
 
   // Load cart count whenever user changes
   useEffect(() => {
@@ -32,7 +33,10 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="bg-white shadow-md px-4 py-2 flex items-center justify-between">
+    <nav className={
+      `flex items-center justify-between px-4 py-2 h-18 transition-colors backdrop-blur-md
+       ${dark ? 'bg-gray-900/80 text-white' : 'bg-white/80 text-gray-800'} shadow-md`
+    }>
       {/* Left: Logo and Home */}
       <div className="flex items-center space-x-4">
         <Logo />
@@ -56,7 +60,7 @@ export default function Navbar() {
         )}
 
         {user && (
-          <NavProfile user={user} onLogout={signOut} />
+          <NavProfile onLogout={signOut} />
         )}
       </div>
     </nav>

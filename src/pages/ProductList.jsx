@@ -1,6 +1,7 @@
 // src/pages/ProductList.jsx
 import React, { useEffect, useState, useContext } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 import { fetchAll, addToCart as apiAddToCart } from '../services/api';
@@ -11,8 +12,10 @@ export default function ProductList() {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
   const { user } = useContext(AuthContext);
+
   const category = searchParams.get('category') || 'home';
   const searchQuery = (searchParams.get('search') || '').toLowerCase();
+
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -24,7 +27,6 @@ export default function ProductList() {
         if (searchQuery) {
           data = data.filter(p => {
             const q = searchQuery;
-            // match name, brand, color, or price
             return (
               p.name.toLowerCase().includes(q) ||
               p.brand.toLowerCase().includes(q) ||
@@ -40,61 +42,82 @@ export default function ProductList() {
   }, [category, searchQuery]);
 
   const handleAdd = async (product) => {
-    if (!user) {
-      alert('Login required to add to cart');
-      navigate('/login');
-      return;
-    }
+    if (!user) return navigate('/login');
     try {
-      const payload = {
+      await apiAddToCart({
         userId: user.id,
         productTable: `${category}_product`,
         productId: product.id,
         quantity: 1
-      };
-      await apiAddToCart(payload);
-      alert('Added to cart');
+      });
     } catch (err) {
       console.error('Add to cart failed:', err);
-      alert('Failed to add to cart');
     }
   };
 
   const handleShow = (id) => navigate(`/products/${category}/${id}`);
 
   return (
-    <div className="flex flex-col min-h-screen">
-      <Navbar />
+    <div className="flex flex-col min-h-screen bg-gray-900 text-white">
+      <Navbar dark />
 
-      <main className="container mx-auto px-4 py-8 flex-1">
+      <main className="container mx-auto px-6 py-8 flex-1">
         <div className="flex justify-between items-center mb-6">
-          <h1 className="text-3xl font-bold capitalize">{category} Shoes</h1>
+          <h1 className="text-4xl font-extrabold capitalize">
+            {category} Shoes
+          </h1>
           {searchQuery && (
-            <p className="text-gray-700">Filtering by “{searchQuery}”</p>
+            <p className="text-gray-400">Filtering by “{searchQuery}”</p>
           )}
         </div>
 
         {loading ? (
-          <p className="text-center">Loading products...</p>
-        ) : products.length === 0 ? (
-          <p className="text-center text-gray-600">No products match.</p>
-        ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {products.map(prod => (
-              <ProductCard
-                key={prod.id}
-                title={prod.name}
-                price={prod.price}
-                img={prod.mainImg}
-                onAddToCart={() => handleAdd(prod)}
-                onShow={() => handleShow(prod.id)}
-              />
-            ))}
+          <div className="text-center py-20">
+            <motion.div
+              className="inline-block w-12 h-12 border-4 border-t-transparent border-indigo-500 rounded-full"
+              animate={{ rotate: 360 }}
+              transition={{ loop: Infinity, duration: 1 }}
+            />
           </div>
+        ) : products.length === 0 ? (
+          <p className="text-center text-gray-500">No products match.</p>
+        ) : (
+          <motion.div
+            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: { opacity: 0 },
+              visible: {
+                opacity: 1,
+                transition: {
+                  staggerChildren: 0.1
+                }
+              }
+            }}
+          >
+            {products.map(prod => (
+              <motion.div
+                key={prod.id}
+                variants={{
+                  hidden: { opacity: 0, y: 20 },
+                  visible: { opacity: 1, y: 0 }
+                }}
+              >
+                <ProductCard
+                  title={prod.name}
+                  price={prod.price}
+                  img={prod.mainImg}
+                  onAddToCart={() => handleAdd(prod)}
+                  onShow={() => handleShow(prod.id)}
+                />
+              </motion.div>
+            ))}
+          </motion.div>
         )}
       </main>
 
-      <Footer />
+      <Footer dark />
     </div>
   );
 }

@@ -4,16 +4,23 @@ import { Link } from 'react-router-dom';
 
 export default function Logo() {
   return (
-    <Link to="/" className="flex items-center space-x-2" aria-label="LaceUp Home">
+    <Link
+      to="/"
+      aria-label="LaceUp Home"
+      className="
+        flex items-center space-x-2 p-2 rounded-lg transition-colors
+        bg-white hover:bg-gray-100
+        
+      "
+    >
       {/* Replace with your actual logo image or SVG */}
-      {/* <img
-        src="/assets/images/logo.png"
+      <img
+        src="/src/assets/images/logo.png"
         alt="LaceUp Logo"
         className="h-10 w-auto"
-      /> */}
-      <span className="text-2xl font-bold text-gray-800">
-        LaceUp
-      </span>
+      />
+   
     </Link>
   );
 }
+

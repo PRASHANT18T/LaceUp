@@ -7,13 +7,23 @@ export default function NavCart({ cartCount = 0 }) {
   return (
     <Link
       to="/cart"
-      className="relative text-gray-700 hover:text-gray-900"
       aria-label="View Cart"
+      className={`
+        relative p-2 rounded-lg transition-colors
+        text-gray-700 hover:text-gray-900 bg-white hover:bg-gray-100
+        dark:text-gray-300 dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700
+      `}
     >
       <FaShoppingCart className="h-6 w-6" />
       {cartCount > 0 && (
         <span
-          className="absolute -top-1 -right-2 bg-red-500 text-white text-xs font-semibold rounded-full h-5 w-5 flex items-center justify-center"
+          className="
+            absolute -top-1 -right-1
+            bg-red-500 text-white text-xs font-bold
+            rounded-full h-5 w-5
+            flex items-center justify-center
+            shadow-md
+          "
         >
           {cartCount}
         </span>
@@ -21,3 +31,4 @@ export default function NavCart({ cartCount = 0 }) {
     </Link>
   );
 }
+
