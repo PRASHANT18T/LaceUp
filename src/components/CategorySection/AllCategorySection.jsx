@@ -28,17 +28,17 @@ const categories = [
 
 export default function AllCategorySection() {
   return (
-    <section className="py-12 bg-gray-900 text-white">
+    <section className="py-12 bg-gray-700 text-white">
       {/* Title animates when scrolled into view */}
-      <motion.h2
-        className="text-3xl md:text-4xl font-extrabold text-center mb-10"
-        initial={{ opacity: 0, y: -30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.6 }}
-      >
-        Shop by Category
-      </motion.h2>
+     <motion.h2
+  className="text-3xl md:text-4xl font-extrabold text-center mb-10 text-gray-100"
+  initial={{ opacity: 0, y: -30 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.6 }}
+>
+  Categorys
+</motion.h2>
 
       <div className="container mx-auto px-4">
         <motion.div

@@ -7,7 +7,7 @@ export default function CampusCategory() {
     <Link to="/products?category=campus" className="block">
       <div className="relative overflow-hidden rounded-lg shadow-md group">
         <img
-          src="/assets/images/banner/campus.jpg"
+          src="https://assetscdn1.paytm.com/images/catalog/brand/1584009092642.png"
           alt="campus Shoes"
           className="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-300"
         />

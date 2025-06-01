@@ -7,7 +7,7 @@ export default function WomanCategory() {
     <Link to="/products?category=woman" className="block">
       <div className="relative overflow-hidden rounded-lg shadow-md group">
         <img
-          src="/assets/images/banner/woman.jpg"
+          src="/src/assets/images/woman-logo.jpg"
           alt="woman Shoes"
           className="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-300"
         />

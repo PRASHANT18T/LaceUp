@@ -7,7 +7,7 @@ export default function ManCategory() {
     <Link to="/products?category=man" className="block">
       <div className="relative overflow-hidden rounded-lg shadow-md group">
         <img
-          src="/assets/images/banner/man.jpg"
+          src="https://th.bing.com/th/id/OIP.wdFXU3Z60rpaINB4REsrUQHaHa?w=214&h=214&c=7&r=0&o=5&dpr=1.3&pid=1.7"
           alt="man Shoes"
           className="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-300"
         />

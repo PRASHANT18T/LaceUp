@@ -7,7 +7,7 @@ export default function NikeCategory() {
     <Link to="/products?category=nike" className="block">
       <div className="relative overflow-hidden rounded-lg shadow-md group">
         <img
-          src="/assets/images/banner/nike.jpg"
+          src="https://www.freepnglogos.com/uploads/nike-logo-4.jpg"
           alt="Nike"
           className="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-300"
         />

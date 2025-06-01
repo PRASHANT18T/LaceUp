@@ -15,19 +15,19 @@ export default function NavProfile({ onLogout }) {
       <span className="text-sm font-medium">{user?.firstName || 'Profile'}</span>
 
       {/* Dropdown menu—visible on hover */}
-      <div className=" z-999 absolute right-0 top-full mt-2 w-48 bg-white border border-gray-200 rounded shadow-lg
+      <div className="  absolute  right-0 top-full mt-2 w-48 bg-white border border-gray-200 rounded shadow-lg
                          opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto
                          transition-opacity
                          dark:bg-gray-800 dark:border-gray-700">
         <Link
           to="/profile"
-          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors dark:text-gray-200 dark:hover:bg-gray-700"
+          className="  block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors dark:text-gray-200 dark:hover:bg-gray-700"
         >
           My Profile
         </Link>
         {/* <button
           onClick={onLogout}
-          className="w-full text-left block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors dark:text-gray-200 dark:hover:bg-gray-700"
+          className= " w-full text-left block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors dark:text-gray-200 dark:hover:bg-gray-700"
         >
           Log Out
         </button> */}

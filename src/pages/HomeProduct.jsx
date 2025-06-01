@@ -47,7 +47,7 @@ const HomeProduct = () => {
   const handleShowProduct = (id) => navigate(`/products/home/${id}`);
 
   return (
-    <div className="p-8 bg-gray-900 text-white min-h-screen">
+    <div className="p-8 bg-gray-700 text-white min-h-screen">
       <motion.h2
         className="text-4xl font-extrabold mb-10 text-center"
         initial={{ opacity: 0, y: -20 }}

@@ -13,6 +13,8 @@ import Cart from './pages/Cart';
 import ProductList from './pages/ProductList';
 import ProductDetails from './pages/ProductDetails';
 import Profile from './pages/Profile';
+import OrderConfirmation from './pages/OrderConfirmation';
+
 
  function App() {
   return (
@@ -39,8 +41,14 @@ import Profile from './pages/Profile';
             {/* User profile & order history */}
             <Route path="/profile" element={<Profile />} />
 
+             {/* Order confirmation */}
+            <Route path="/order-confirmation/:orderId" element={<OrderConfirmation />} />
+
             {/* Fallback to home for unknown routes */}
             <Route path="*" element={<Navigate to="/" replace />} />
+
+              
+
           </Routes>
         </CartProvider>
       </AuthProvider>

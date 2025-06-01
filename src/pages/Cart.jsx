@@ -1,15 +1,14 @@
-
-// src/pages/Cart.jsx
 import React, { useEffect, useState, useContext } from 'react';
 import { motion } from 'framer-motion';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 import { fetchCart, fetchOne, updateCart, removeCart } from '../services/api';
 import { AuthContext } from '../context/AuthContext';
+import CheckoutForm from '../components/CheckoutForm';
 
 export default function Cart() {
   const { user } = useContext(AuthContext);
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState([]);      // items[] = { id, userId, productTable, productId, quantity, product: { … } }
   const [loading, setLoading] = useState(true);
   const [total, setTotal] = useState(0);
 
@@ -20,23 +19,29 @@ export default function Cart() {
         return;
       }
       try {
+        // 1) Fetch raw cart items
         const cartRes = await fetchCart(user.id);
         const cartItems = cartRes.data;
+
+        // 2) For each cart item, fetch product details
         const itemsWithDetails = await Promise.all(
           cartItems.map(async (item) => {
             const prodRes = await fetchOne(
-              item.productTable.replace('_product',''),
+              item.productTable.replace('_product', ''),  // “home”, “nike”, etc.
               item.productId
             );
             return { ...item, product: prodRes.data };
           })
         );
+
         setItems(itemsWithDetails);
+
+        // 3) Compute total (quantity * price)
         const sum = itemsWithDetails.reduce(
           (acc, item) => acc + item.quantity * parseFloat(item.product.price),
           0
         );
-        setTotal(sum);
+        setTotal(sum * 100); // convert to paise for Stripe (₹ → 100×)
       } catch (err) {
         console.error('Error loading cart:', err);
       } finally {
@@ -49,11 +54,13 @@ export default function Cart() {
   const handleQuantityChange = async (cartItemId, newQty) => {
     try {
       const res = await updateCart(cartItemId, { quantity: newQty });
-      setItems(prev => prev.map(item =>
-        item.id === cartItemId ? { ...item, quantity: res.data.quantity } : item
-      ));
+      setItems(prev =>
+        prev.map(item =>
+          item.id === cartItemId ? { ...item, quantity: res.data.quantity } : item
+        )
+      );
       const changed = items.find(i => i.id === cartItemId);
-      setTotal(prev => prev + (newQty - changed.quantity) * parseFloat(changed.product.price));
+      setTotal(prev => prev + (newQty - changed.quantity) * parseFloat(changed.product.price) * 100);
     } catch (err) {
       console.error('Error updating quantity:', err);
     }
@@ -64,7 +71,7 @@ export default function Cart() {
       await removeCart(cartItemId);
       const removed = items.find(i => i.id === cartItemId);
       setItems(prev => prev.filter(item => item.id !== cartItemId));
-      setTotal(prev => prev - removed.quantity * parseFloat(removed.product.price));
+      setTotal(prev => prev - removed.quantity * parseFloat(removed.product.price) * 100);
     } catch (err) {
       console.error('Error removing cart item:', err);
     }
@@ -147,17 +154,16 @@ export default function Cart() {
 
             {/* Total and Checkout */}
             <motion.div
-              className="mt-8 bg-gray-800 p-6 rounded-2xl shadow-xl flex justify-between items-center"
+              className="mt-8 bg-gray-800 p-6 rounded-2xl shadow-xl flex flex-col md:flex-row justify-between items-start md:items-center space-y-4 md:space-y-0"
               initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}
             >
-              <p className="text-3xl font-bold">Total: ₹{total.toFixed(2)}</p>
-              <motion.button
-                className="bg-green-600 text-white px-6 py-3 rounded-2xl hover:bg-green-700 transition-all"
-                whileHover={{ scale: 1.05 }}
-                onClick={() => alert('Proceeding to payment gateway...')}
-              >
-                Proceed to Payment
-              </motion.button>
+              <p className="text-3xl font-bold text-center md:text-left">
+                Total: ₹{(total / 100).toFixed(2)}
+              </p>
+              <div className="w-full md:w-1/2">
+                {/* Stripe Checkout Form; amount passed in paise */}
+                <CheckoutForm amount={total} />
+              </div>
             </motion.div>
           </motion.div>
         )}
@@ -165,6 +171,5 @@ export default function Cart() {
 
       <Footer dark />
     </div>
-
   );
 }

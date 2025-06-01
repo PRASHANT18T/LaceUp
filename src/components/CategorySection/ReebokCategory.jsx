@@ -7,7 +7,7 @@ export default function ReebokCategory() {
     <Link to="/products?category=reebok" className="block">
       <div className="relative overflow-hidden rounded-lg shadow-md group">
         <img
-          src="/assets/images/banner/reebok.jpg"
+          src="https://th.bing.com/th/id/OIP.vaeUgl8kSE2xlslH5os1oQHaHa?w=768&h=768&rs=1&pid=ImgDetMain"
           alt="reebok Shoes"
           className="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-300"
         />

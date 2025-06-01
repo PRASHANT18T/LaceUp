@@ -1,5 +1,3 @@
-
-// src/pages/Profile.jsx
 import React, { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from 'framer-motion';
@@ -13,15 +11,6 @@ export default function Profile() {
   const navigate = useNavigate();
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [isEditing, setIsEditing] = useState(false);
-  const [form, setForm] = useState({
-    firstName: user?.firstName || "",
-    lastName: user?.lastName || "",
-    phoneNo: user?.phoneNo || "",
-    address1: user?.address1 || "",
-    address2: user?.address2 || "",
-    address3: user?.address3 || "",
-  });
 
   useEffect(() => {
     if (user) {
@@ -33,6 +22,18 @@ export default function Profile() {
       setLoading(false);
     }
   }, [user]);
+
+  if (!user) {
+    return (
+      <div className="min-h-screen flex flex-col bg-gray-100">
+        <Navbar />
+        <main className="flex-1 flex items-center justify-center">
+          <p className="text-gray-600 text-lg">Please log in to view your profile.</p>
+        </main>
+        <Footer />
+      </div>
+    );
+  }
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-900 text-white">
@@ -169,11 +170,11 @@ export default function Profile() {
                       </span>
                     </p>
                   </div>
-                  <div className="mt-4 md:mt-0">
+                  {/* <div className="mt-4 md:mt-0">
                     <p className="text-lg font-bold text-green-400">
-                      ₹{order.totalPrice}
+                         ₹{order.totalPrice}
                     </p>
-                  </div>
+                  </div> */}
                 </motion.div>
               ))}
             </div>

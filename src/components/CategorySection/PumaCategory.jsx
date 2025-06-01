@@ -7,7 +7,7 @@ export default function PumaCategory() {
     <Link to="/products?category=puma" className="block">
       <div className="relative overflow-hidden rounded-lg shadow-md group">
         <img
-          src="/assets/images/banner/puma.jpg"
+          src="https://static.vecteezy.com/system/resources/previews/022/424/423/non_2x/puma-logo-editorial-free-vector.jpg"
           alt="puma Shoes"
           className="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-300"
         />

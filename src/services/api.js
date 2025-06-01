@@ -24,4 +24,8 @@ export const removeCart = cartItemId  => api.delete(`/cart/${cartItemId}`);
 export const placeOrder = userId  => api.post(`/order/place?userId=${userId}`);
 export const fetchOrders= userId  => api.get(`/order/${userId}`);
 
+// ========== Payments ==========
+export const createPaymentIntent = payload => api.post('/payments/create-payment-intent', payload);
+export const completePayment      = userId  => api.post(`/payments/complete?userId=${userId}`);
+
 export default api;

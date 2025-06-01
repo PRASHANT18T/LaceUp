@@ -3,11 +3,11 @@ import React, { useEffect, useState } from 'react';
 
 const images = [
   './src/assets/images/CarouselHome-img1.jpg',
-  './src/assets/images/CarouselHome-img2.jpg',
-  '/src/assets/images/CarouselHome-img3.jpg',
-  '/src/assets/images/CarouselHome-img4.jpg',
-  '/src/assets/images/CarouselHome-img5.jpg',
+  './src/assets/images/CarouselHome-img5.jpg',
   '/src/assets/images/CarouselHome-img6.jpg',
+  '/src/assets/images/CarouselHome-img4.jpg',
+  '/src/assets/images/CarouselHome-img2.jpg',
+  '/src/assets/images/CarouselHome-img3.jpg',
 ];
 
 export default function CarouselHome() {
@@ -21,7 +21,7 @@ export default function CarouselHome() {
   }, []);
 
   return (
-    <div className="relative w-full h-[500px] overflow-hidden rounded-2xl shadow-lg  ">
+    <div className="relative  w-full h-[500px] overflow-hidden rounded-2xl shadow-lg  ">
       {images.map((src, i) => (
         <img
           key={i}

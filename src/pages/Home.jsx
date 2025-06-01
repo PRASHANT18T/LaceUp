@@ -1,15 +1,16 @@
 // src/pages/Home.jsx
 import React from 'react';
 import Navbar from '../components/Navbar/Navbar';
- import CarouselHome from '../components/Carousel/CarouselHome'; // TODO: Uncomment when ready
- import HomeMainBanner from '../components/BannerAndGrids/HomeMainBanner'; // TODO: Uncomment when ready
+ import CarouselHome from '../components/Carousel/CarouselHome'; 
+ import HomeMainBanner from '../components/BannerAndGrids/HomeMainBanner'; 
 import AllCategorySection from '../components/CategorySection/AllCategorySection';
 import HomeProduct from '../pages/HomeProduct';
 import Footer from '../components/Footer/Footer';
+import HomeProductGrid from '../components/BannerAndGrids/HomeProductGrid';
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-gray-900 text-white">
+    <div className="flex flex-col min-h-screen bg-gray-700 text-white">
       {/* Navbar */}
       <Navbar />
 
@@ -32,8 +33,14 @@ export default function Home() {
       {/* Category Section */}
       <AllCategorySection />
 
+        {/*HomeProductGrid  */}
+      <HomeProductGrid />
+
       {/* Home Products Section */}
       <HomeProduct />
+
+    
+
 
       {/* Footer at bottom */}
       <Footer />
